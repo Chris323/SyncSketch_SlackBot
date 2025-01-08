@@ -14,6 +14,8 @@ class SyncSketch:
         print(self.s.is_connected())
         #Display your current user data
         #print(s.get_current_user())x
+    def get_users(self):
+        pass
     
 
 # testing = SyncSketch()
