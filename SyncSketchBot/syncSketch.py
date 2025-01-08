@@ -11,11 +11,11 @@ class SyncSketch:
         self.s = SyncSketchAPI(self.username, self.api_key)
 
 #     Verify your credentials work
-#     def run_test(self):
+#     def test_connection(self):
 #         print(self.s.is_connected())
 #         Display your current user data
 #         print(s.get_current_user())
     
 
 # testing = SyncSketch()
-# testing.run_test()
+# testing.test_connection()
