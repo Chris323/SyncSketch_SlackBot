@@ -1,0 +1,1 @@
+# syncsketch bot for slack
