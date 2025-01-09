@@ -14,9 +14,16 @@ class SyncSketch:
         print(self.s.is_connected())
         #Display your current user data
         #print(s.get_current_user())x
+
     def get_users(self):
         pass
-    
 
-# testing = SyncSketch()
+    def print_projectList(self):
+        print(self.s.get_projects(fields=['name','id']))
+    
+    def print_userList(self):
+        pass
+
+testing = SyncSketch()
 # testing.test_connection()
+testing.print_projectList()
