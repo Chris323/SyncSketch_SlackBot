@@ -22,6 +22,7 @@ class SlackBot:
         handler = SocketModeHandler(app, self.slack_app_token)
         handler.start()
     
+    #AKA reverse api
     def send_webhook(self, input):
         text = "Hello Hammer Creative"
         payload = {"text" : text}
