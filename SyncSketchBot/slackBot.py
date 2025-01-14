@@ -23,11 +23,11 @@ class SlackBot:
         handler.start()
     
     #AKA reverse api
-    def send_webhook(self, input):
-        text = "Hello Hammer Creative"
+    def send_webhook(self):
+        text = "Hello Hammer Creative Again"
         payload = {"text" : text}
         requests.post(self.webhook_url, json=payload)
     
 #Test
-# slacky = SlackBot()
-# slacky.send_webhook()
+slacky = SlackBot()
+slacky.send_webhook()
